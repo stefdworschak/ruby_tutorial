@@ -1,4 +1,4 @@
-class Prime
+class IsPrime
     def self.runcheck(num)
         ans = "Not a Prime"
         if num <= 2

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
  s.name = 'isprime'
- s.version = '0.0.0'
+ s.version = '0.0.1'
  s.date = '2011-10-03'
  s.summary = "Test to see if a number is prime!"
  s.description = "A simple gem"

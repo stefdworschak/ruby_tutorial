@@ -1,0 +1,2 @@
+class Prime < ApplicationRecord
+end
