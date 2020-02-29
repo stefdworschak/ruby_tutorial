@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+<p>
+<strong>Title:</strong>
+<%= @movie.title %>
+</p>
+<p>
+<strong>Rating:</strong>
+<%= @movie.rating %>
+</p>
+<p>
+<strong>Release Date:</strong>
+<%= @movie.release %>
+</p>
+<!-- Display the reviews of a movie -->
+<h2>Reviews</h2>
+<% @movie.reviews.each do |review| %>
+<p>
+<b>Review details:</b>
+<%= review.details %>
+</p>
+<% end %>
+<%= link_to 'Edit Movie', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %> |
+<%= link_to 'Show Reviews', movie_reviews_path(@movie) %>

@@ -1,0 +1,7 @@
+<h1>Review in <%= @movie.title %></h1>
+<p>
+<b>Review details:</b>
+<%= @review.details %>
+</p>
+<%= link_to 'Edit', edit_movie_review_path(@movie, @review) %> |
+<%= link_to 'Back', movie_reviews_path(@movie) %>
